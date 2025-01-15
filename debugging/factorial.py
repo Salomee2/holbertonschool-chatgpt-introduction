@@ -7,7 +7,7 @@ def factorial(n):
     result = 1
     while n > 1:
         result *= n
-        n -= 1  # On décrémee n a  chaque itération
+        n -= 1  # On décrémee n chaque itération
     return result
 
 if __name__ == "__main__":
